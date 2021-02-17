@@ -1,0 +1,128 @@
+
+@media only screen and (min-width: 200px) {
+  .app {
+    background-image: url('bg5.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    position: fixed;
+    top: 0;
+    bottom:0;
+    left:0;
+    width: 100%;
+    height: 100%;
+  }
+}
+@media only screen and (min-width: 450px) {
+  .app {
+    background-image: url('bg4.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    position: fixed;
+    top: 0;
+    bottom:0;
+    left:0;
+    width: 100%;
+    height: 100%;
+  }
+}
+@media only screen and (min-width: 550px) {
+  .app {
+    background-image: url('bg3.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    position: fixed;
+    top: 0;
+    bottom:0;
+    left:0;
+    width: 100%;
+    height: 100%;
+  }
+}
+
+@media only screen and (min-width: 700px) {
+  .app {
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    background-image: url('bg2.png');
+    background-repeat: no-repeat;
+    position: fixed;
+    top: 0;
+    bottom:0;
+    left:0;
+    width: 100%;
+    height: 100%;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .app {
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    background-image: url('bg1.png');
+    background-repeat: no-repeat;
+    position: fixed;
+    top: 0;
+    bottom:0;
+    left:0;
+    width: 100%;
+    height: 100%;
+  }
+}
+
+.img1{
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  float: left;
+  bottom: 0;
+  margin: 2px;
+}
+
+.img2{
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  right: -10px;
+  bottom: 0;
+  margin-bottom: 2px;
+  margin-right: 15px;
+}
+
+.img3{
+  position: absolute;
+  width: 55px;
+  height: 55px;
+  float: left;
+  bottom: 0;
+  margin-bottom: 32px;
+  margin-left: 26px;
+}
+
+.img4{
+  position: absolute;
+  width: 75px;
+  height: 75px;
+  right: -10px;
+  bottom: 0;
+  margin-bottom: 20px;
+  margin-right: 27px;
+}
+
+.img5{
+  position: fixed;
+  top: 70%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 130px;
+  height: 130px;
+}
+
+
